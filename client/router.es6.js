@@ -1,6 +1,6 @@
 FlowRouter.route('/', {
   action() {
-    ReactLayout.render(<Main />, {
+    ReactLayout.render(MainLayout, {
       content: <HelloWorld />
     });
   }
