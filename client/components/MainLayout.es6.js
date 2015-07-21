@@ -6,7 +6,7 @@ HelloWorld = React.createClass({
   }
 });
 
-Main = React.createClass({
+MainLayout = React.createClass({
   render() {
     return (
       <div>
