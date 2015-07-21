@@ -1,4 +1,4 @@
 #! /bin/sh
 
-rm -r .git
+mv .git GIT_HISTORY
 git init
